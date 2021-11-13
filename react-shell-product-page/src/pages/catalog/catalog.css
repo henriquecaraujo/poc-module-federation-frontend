@@ -1,0 +1,14 @@
+.page.product-catalog {
+  border: 1px solid #61dafb;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+}
+
+.page.product-catalog ul {
+  background: rgba(0,0,0, .1);
+}
+
+.page.product-catalog ul > li a {
+  padding: 8px;
+}
