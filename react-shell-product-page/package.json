@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
+    "cy:install": "cypress install",
     "test": "cypress open"
   },
   "keywords": [],
