@@ -25,8 +25,17 @@ This project shouldn't used as a reference. It's for study purposes only.
 ```
 
 ## Running
+All applications must be running, to prevent unrenders
+
+Host
 ```shell
   cd ./react-shell-product-page
+  npm run start
+```
+
+Sales experience
+```shell
+  cd ./angular-atom-sales-experience
   npm run start
 ```
 
