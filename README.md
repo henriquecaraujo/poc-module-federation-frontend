@@ -6,7 +6,8 @@ This project shouldn't used as a reference. It's for study purposes only.
 </p>
 
 ### References
-[Module Federation](https://webpack.js.org/concepts/module-federation/)
+- [Module Federation](https://webpack.js.org/concepts/module-federation/)
+- [Web components](https://developer.mozilla.org/pt-BR/docs/Web/Web_Components)
 
 ## Installing
 
