@@ -15,11 +15,11 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(jsx|js)?$/,
+        test: /\.[jt]sx?$/,
         loader: "babel-loader",
         exclude: /node_modules/,
         options: {
-          presets: ["@babel/preset-react"],
+          presets: ['@babel/preset-env', '@babel/preset-react'],
         },
       },
       {
@@ -34,14 +34,6 @@ module.exports = {
             options: {
               limit: 10000,
             },
-          },
-        ],
-      },
-      {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
           },
         ],
       },

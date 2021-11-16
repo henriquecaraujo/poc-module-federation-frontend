@@ -18,7 +18,10 @@ function CatalogPage() {
 
   return (
     <div className="page product-catalog">
-      <img src={ReactLogo} />
+      <h1>
+        <img src={ReactLogo} />
+        Catalog
+      </h1>
       <ul>
         {products.map(({ id, name }) => (
           <li key={id}>

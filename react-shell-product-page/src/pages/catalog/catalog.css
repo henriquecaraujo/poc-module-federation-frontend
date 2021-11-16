@@ -12,3 +12,13 @@
 .page.product-catalog ul > li a {
   padding: 8px;
 }
+
+.page.product-catalog h1 {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.page.product-catalog h1 img {
+  margin-right:  16px;
+}
