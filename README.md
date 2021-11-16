@@ -40,6 +40,8 @@ Sales experience
   npm run start
 ```
 
+After both apps wire up, access http://localhost:8080/
+
 ## Testing
 ```shell
   cd ./react-shell-product-page
