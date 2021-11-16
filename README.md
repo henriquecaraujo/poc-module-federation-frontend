@@ -40,7 +40,7 @@ Sales experience
   npm run start
 ```
 
-After both apps wire up, access http://localhost:8080/
+After both apps wire up, access http://localhost:8080/ and click on any item list to load the microfrontend remotely
 
 ## Testing
 ```shell
